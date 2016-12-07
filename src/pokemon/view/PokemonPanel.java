@@ -27,4 +27,15 @@ public class PokemonPanel extends JPanel
 	private JTextField nameField;
 	private JTextField numberField;
 	private JTextArea advancedArea;
+	
+	private void setupPanel()
+	{
+		this.setLayout(baseLayout);
+		this.setPreferredSize(new Dimension(900, 600));
+		this.setBackground(Color.DARK_GRAY);
+		
+		numberField.setEditable(false);
+		advancedArea.setEditable(false);
+		advancedArea.setWrapStyleWord(true);
+	}
 }

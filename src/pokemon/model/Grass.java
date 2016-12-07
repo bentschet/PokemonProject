@@ -1,5 +1,6 @@
 package pokemon.model;
 
-public class Grass {
+public interface Grass 
+{
 
 }

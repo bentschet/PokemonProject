@@ -1,5 +1,5 @@
 package pokemon.model;
 
-public class Normal {
+public interface Normal {
 
 }

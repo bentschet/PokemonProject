@@ -1,5 +1,5 @@
 package pokemon.model;
 
-public class Poison {
+public interface Poison {
 
 }
