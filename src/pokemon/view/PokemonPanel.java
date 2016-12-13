@@ -72,7 +72,7 @@ public class PokemonPanel extends JPanel
 				{
 					public void mouseMoved(MouseEvent moved)
 					{
-						if(((Math.abs(moved.getX() - updateButton.getX()) < 5 ) || (Math.abs(moved.getY() - updateButton.getY() <5)))
+						if(((Math.abs(moved.getX() - updateButton.getX()) < 5 ) || (Math.abs(moved.getY() - updateButton.getY() <5))))
 						{
 							updateButton.setLocation(moved.getX() + 10, moved.getY() - 10);
 							
