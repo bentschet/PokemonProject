@@ -28,6 +28,22 @@ public class PokemonPanel extends JPanel
 	private JTextField numberField;
 	private JTextArea advancedArea;
 	
+	public PokemonPanel(PokemonController baseController)
+	{
+		super();
+		this.baseController = baseController;
+		this.baseLayout = new SpringLayout();
+		this.pokemonIcon = new ImageIcon();
+		this.updateButton = new JButton("update stats");
+		this.nameField = new JTextField(20);
+		this.combatField = new JTextField(5);
+		this.healthField = new JTextField(5);
+		this.speedField = new JTextField(5);
+		this.numberField = new JTextField(5);
+		this.advancedArea = new JTextArea(10, 25);
+		
+	}
+	
 	private void setupPanel()
 	{
 		this.setLayout(baseLayout);
